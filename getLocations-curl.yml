@@ -7,7 +7,7 @@ packages:
         version: 1.0
         description: Json output of IBM Cloud PoPs and Datacenters
         docker: openwhisk/dockerskeleton
-        function: getLocations.sh
+        function: getLocations-curl.sh
         inputs:
           SL_USER: $SL_USER
           SL_APIKEY: $SL_APIKEY
