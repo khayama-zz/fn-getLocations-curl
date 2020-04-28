@@ -3,7 +3,7 @@ packages:
     version: 1.0
     license: Apache-2.0
     actions:
-      getLocations-curl-0:
+      getLocations-curl:
         version: 1.0
         description: Json output of IBM Cloud PoPs and Datacenters
         docker: openwhisk/dockerskeleton
