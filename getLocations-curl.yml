@@ -11,4 +11,4 @@ packages:
         inputs:
           SL_USER: $SL_USER
           SL_APIKEY: $SL_APIKEY
-        web: true
+          
