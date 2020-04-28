@@ -1,0 +1,14 @@
+packages:
+  SoftLayer_package:
+    version: 1.0
+    license: Apache-2.0
+    actions:
+      getLocations-curl-0:
+        version: 1.0
+        description: Json output of IBM Cloud PoPs and Datacenters
+        docker: openwhisk/dockerskeleton
+        function: getLocations.sh
+        inputs:
+          SL_USER: $SL_USER
+          SL_APIKEY: $SL_APIKEY
+        web: true
